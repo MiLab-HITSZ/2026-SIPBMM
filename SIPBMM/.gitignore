@@ -1,0 +1,62 @@
+# 虚拟环境
+.venv/
+env/
+venv/
+
+# 模型文件（通常较大）
+/models/
+checkpoints/
+
+# 缓存文件
+.cache/
+__pycache__/
+*.py[cod]
+
+# 日志文件
+logs/
+output/
+outputs/
+vllm_logs/
+*.log
+nohup.out
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试覆盖报告
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# 性能分析文件
+*.prof
+
+# 图像文件（如果不需要跟踪）
+*.png
+*.jpg
+*.jpeg
+*.gif
