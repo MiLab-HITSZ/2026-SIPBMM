@@ -19,7 +19,7 @@ Constructing a Pareto set is pivotal for navigating the capability–efficiency 
 We propose **SIP-BMM** (**S**tructural **I**mportance **P**rior **B**ayesian **M**odel **M**erging), an evolutionary multi-objective optimization framework for automatically constructing the LLM Pareto set. SIP-BMM introduces a **Structural Importance Prior (SIP)** derived from task-vector differences to quantify layer sensitivity, and uses it to warm-start **importance-aware SAASBO** (Sparse Axis-Aligned Subspace Bayesian Optimization). This makes high-dimensional layer-wise optimization feasible under strict evaluation budgets. The overall process is driven by **Log-Noisy Expected Hypervolume Improvement ($q$NEHVI)** to efficiently explore the capability–efficiency frontier.
 
 <div align="center">
-  <img src="assets/SIP-BO.png" width="90%" alt="Pareto Frontier">
+  <img src="assets/SIP-BO2.png" width="90%" alt="Pareto Frontier">
   <br>
   <em>SIP-BMM.</em>
 </div>
